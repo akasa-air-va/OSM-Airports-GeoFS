@@ -53,40 +53,63 @@
 	],
 	"materials":[
 		{
-			"name":"Plaster002.001",
-			"normalTexture":{
-				"index":0
-			},
-			"occlusionTexture":{
-				"index":1
-			},
-			"pbrMetallicRoughness":{
-				"baseColorTexture":{
-					"index":2
-				},
-				"metallicRoughnessTexture":{
-					"index":1
-				}
-			}
-		},
-		{
-			"name":"RoofingTiles010.001",
-			"normalTexture":{
-				"index":3
-			},
-			"occlusionTexture":{
-				"index":4
-			},
-			"pbrMetallicRoughness":{
-				"baseColorTexture":{
-					"index":5
-				},
-				"metallicRoughnessTexture":{
-					"index":4
-				}
-			}
-		}
-	],
+  "name": "Plaster002.001",
+  "normalTexture": {
+    "index": 0
+  },
+  "occlusionTexture": {
+    "index": 1
+  },
+  "pbrMetallicRoughness": {
+    "baseColorTexture": {
+      "index": 2
+    },
+    "metallicRoughnessTexture": {
+      "index": 1
+    },
+    "baseColorFactor": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "roughnessFactor": 0.8
+  },
+  "emissiveFactor": [
+    0.01,
+    0.009,
+    0.006
+  ]
+},
+{
+  "name": "RoofingTiles010.001",
+  "normalTexture": {
+    "index": 3
+  },
+  "occlusionTexture": {
+    "index": 4
+  },
+  "pbrMetallicRoughness": {
+    "baseColorTexture": {
+      "index": 5
+    },
+    "metallicRoughnessTexture": {
+      "index": 4
+    },
+    "baseColorFactor": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "roughnessFactor": 0.8
+  },
+  "emissiveFactor": [
+    0.01,
+    0.009,
+    0.006
+  ]
+},
 	"meshes":[
 		{
 			"name":"Mesh_144.001",
@@ -204,7 +227,7 @@
 		{
 			"mimeType":"image/jpeg",
 			"name":"Image_6",
-			"uri":"Image_6.jpg"
+			"uri":"https://cdn.jsdelivr.net/gh/akasa-air-va/OSM-Airports-GeoFS@latest/Image_6.jpg"
 		}
 	],
 	"accessors":[
